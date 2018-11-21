@@ -2,7 +2,6 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll(sides, number = 1)
-  roll_array = []
-  number.times do 
+def roll
+  rand(1..6)
 end
